@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VODZYVERSE ✦ Blog Nghệ Thuật</title>
+  <meta name="theme-color" content="#00fff0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/images/icons/icon-192.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body onload="initApp();">
+
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
+  <!-- Theme Switcher -->
+  <button id="themeToggle">🌓 Giao Diện</button>
+
+  <!-- Ambient Music -->
+  <audio id="bgMusic" autoplay loop>
+    <source src="assets/bg-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Hero Section -->
+  <header class="hero" data-aos="fade-down">
+    <h1 class="logo">🎨 VODZYVERSE</h1>
+    <p class="subtag">"Nơi nghệ thuật và cảm xúc giao hòa cùng Vodzy Huez"</p>
+  </header>
+
+  <!-- Chị Ly Spotlight -->
+  <section class="intro" data-aos="zoom-in">
+    <div class="badge neon-glow">🌸 Chị Ly Hồng Lấp Lánh</div>
+    <p class="intro-desc">Người truyền cảm hứng rực rỡ cho từng con chữ.</p>
+  </section>
+
+  <!-- Featured Posts -->
+  <section class="post-showcase" data-aos="fade-up">
+    <h2 class="section-title">🔥 Bài viết nổi bật</h2>
+    <div class="post-grid">
+      <div class="post-card neon-card" data-aos="flip-left">
+        <h3>💌 Bài viết 1</h3>
+        <p>Hành trình cảm xúc qua từng câu chữ.</p>
+        <a href="posts/post1.html">→ Xem bài viết</a>
+      </div>
+      <div class="post-card neon-card" data-aos="flip-right">
+        <h3>🌈 Bài viết 2</h3>
+        <p>Sáng tạo, nghệ thuật và những tâm sự nhỏ.</p>
+        <a href="posts/post2.html">→ Đọc thêm</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- QR Section -->
+  <section class="qr-zone" data-aos="fade-up">
+    <h2 class="section-title">📱 Kết nối cùng Vodzy</h2>
+    <div class="qr-container">
+      <div class="qr-card">
+        <img src="assets/images/qr-profile.png" alt="QR cá nhân">
+        <p>Facebook: Vodzy Huez</p>
+        <a href="https://www.facebook.com/vodzyhuez.official" target="_blank">Truy cập</a>
+      </div>
+      <div class="qr-card">
+        <img src="assets/images/qr-page.png" alt="QR Cây Kể Chuyện">
+        <p>Page: Cây Kể Chuyện</p>
+        <a href="https://www.facebook.com/profile.php?id=61573798389348" target="_blank">Xem Page</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Submit Form -->
+  <section class="submit-post" data-aos="fade-up">
+    <h2>✍️ Gửi bài viết của bạn</h2>
+    <form id="postForm">
+      <input type="text" name="title" placeholder="Tiêu đề bài viết" required>
+      <textarea name="content" rows="6" placeholder="Nội dung bài viết..." required></textarea>
+      <button type="submit">📤 Gửi</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer data-aos="fade-in">
+    <p>&copy; 2025 ✦ Thiết kế bởi VODZY HUEZ với 💜 và nghệ thuật.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/script.js"></script>
+  <script>AOS.init();</script>
+
+</body>
+</html>
